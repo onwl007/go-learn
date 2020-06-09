@@ -35,7 +35,7 @@ func main() {
 	//2.区别：'A',"A"
 	v1 := 'A'
 	v2 := "A"
-	fmt.Printf("%T, %d\n", v1, v2) // int32
+	fmt.Printf("%T, %d\n", v1, v1) // int32
 	fmt.Printf("%T, %s\n", v2, v2)
 
 	v3 := '中'
