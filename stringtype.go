@@ -42,7 +42,7 @@ func main() {
 	fmt.Printf("%T, %d, %c, %q\n", v3, v3, v3, v3)
 
 	//3.转义字符
-	fmt.Println("\"helloworld\"")
+	fmt.Println("\"hello world\"")
 	fmt.Println("hello\nwor\tld")
 
 	fmt.Println(`he"llowor"ld`)
